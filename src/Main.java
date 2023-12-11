@@ -18,7 +18,7 @@ public class Main {
         } catch (Exception e) {
             System.out.println(e);
         }
-        collection2.addAll(List.of("X", "C", "D"));
+        collection2.addAll(List.of("X", "C", "O"));
         collection2.sort();
         System.out.println(collection2);
         collection2.add("A");
